@@ -17,6 +17,12 @@
 - [misc_02_stringbuilder](app/src/main/java/org/example/part_1_programming_language/misc_02_stringbuilder/StringBuilder.md)
 - [misc_03_charsequence_interface](app/src/main/java/org/example/part_1_programming_language/misc_03_charsequence_interface/CharSequence.md)
 - [misc_04_array](app/src/main/java/org/example/part_1_programming_language/misc_04_array/Array.md)
+- misc_05_collections_framework
+  - [Collection Interface](app/src/main/java/org/example/part_1_programming_language/misc_05_collections_framework/CollectionInterface.md)
+  - [List Interface](app/src/main/java/org/example/part_1_programming_language/misc_05_collections_framework/ListInterface.md)
+  - [Set Interface](app/src/main/java/org/example/part_1_programming_language/misc_05_collections_framework/SetInterface.md)
+  - [Queue and Deque Interface](app/src/main/java/org/example/part_1_programming_language/misc_05_collections_framework/QueueDequeInterface.md)
+  - [Map Interface](app/src/main/java/org/example/part_1_programming_language/misc_05_collections_framework/MapInterface.md)
 
 ## part_2_data_structures
 
