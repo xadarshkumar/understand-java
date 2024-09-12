@@ -1,6 +1,11 @@
 # misc_04_array
 
-
+<!-- TOC -->
+* [misc_04_array](#misc_04_array)
+  * [Array](#array)
+    * [obtain array](#obtain-array)
+    * [array length](#array-length)
+<!-- TOC -->
 
 ## Array
 https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Arrays.html
