@@ -7,6 +7,8 @@
 <!-- TOC -->
 
 ## CharSequence Interface
+https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/CharSequence.html
+
 ### Methods
 - `char chatAt(int index)`
 - `static int compare(CharSequence seqA, CharSequence seqB)` 

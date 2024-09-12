@@ -8,6 +8,9 @@
 <!-- TOC -->
 
 ## StringBuilder
+https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/StringBuilder.html
+https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/StringBuffer.html
+
 StringBuffer is similar to StringBuilder with one difference:
 - StringBuffer is synchronized - methods are thread-safe
 - StringBuilder is not synchronized - methods are not thread-safe - faster than StringBuffer

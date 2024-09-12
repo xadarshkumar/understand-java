@@ -8,6 +8,7 @@
 <!-- TOC -->
 
 ## part_1_programming_language
+[Documentation - Java17](app/src/main/java/org/example/part_1_programming_language/Documentation.md)
 - [ch_02_an_overview_of_java](app/src/main/java/org/example/part_1_programming_language/ch_02_an_overview_of_java/Ch_2_notes.md)
 - [ch_03_data_types_variables_and_arrays](app/src/main/java/org/example/part_1_programming_language/ch_03_data_types_variables/Ch_3_notes.md)
 - [ch_04_operators](app/src/main/java/org/example/part_1_programming_language/ch_04_operators/Ch_4_notes.md)

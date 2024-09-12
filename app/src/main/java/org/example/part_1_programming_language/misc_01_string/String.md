@@ -20,6 +20,8 @@
 <!-- TOC -->
 
 ## String
+https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
+
 - It is not a primitive type,
 - It is not an array of characters.
 - Every string you create is actually an object of type **String**.
