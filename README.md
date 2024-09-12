@@ -16,7 +16,7 @@
 - [misc_01_string](app/src/main/java/org/example/part_1_programming_language/misc_01_string/String.md)
 - [misc_02_stringbuilder](app/src/main/java/org/example/part_1_programming_language/misc_02_stringbuilder/StringBuilder.md)
 - [misc_03_charsequence_interface](app/src/main/java/org/example/part_1_programming_language/misc_03_charsequence_interface/CharSequence.md)
-
+- [misc_04_array](app/src/main/java/org/example/part_1_programming_language/misc_04_array/Array.md)
 
 ## part_2_data_structures
 
