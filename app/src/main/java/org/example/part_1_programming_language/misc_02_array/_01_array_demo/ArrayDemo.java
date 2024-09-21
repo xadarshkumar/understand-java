@@ -1,4 +1,4 @@
-package org.example.part_1_programming_language.misc_04_array;
+package org.example.part_1_programming_language.misc_02_array._01_array_demo;
 
 public class ArrayDemo {
     public static void main(String[] args) {

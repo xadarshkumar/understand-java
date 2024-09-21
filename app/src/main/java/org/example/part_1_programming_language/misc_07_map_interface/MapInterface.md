@@ -1,23 +1,26 @@
-# misc_05_collections_framework
+# misc_07_map_interface
 
 <!-- TOC -->
-* [misc_05_collections_framework](#misc_05_collections_framework)
+* [misc_07_map_interface](#misc_07_map_interface)
   * [Map Interface](#map-interface)
     * [Map operations](#map-operations)
     * [Map implementation](#map-implementation)
+      * [HashMap](#hashmap)
+      * [LinkedHashMap](#linkedhashmap)
   * [SortedMap Interface](#sortedmap-interface)
     * [SortedMap operations](#sortedmap-operations)
     * [SortedMap implementation](#sortedmap-implementation)
   * [NavigableMap Interface](#navigablemap-interface)
-    * [SortedMap operations](#sortedmap-operations-1)
+    * [NavigableMap operations](#navigablemap-operations)
     * [NavigableMap implementation](#navigablemap-implementation)
+      * [TreeMap](#treemap)
 <!-- TOC -->
 
 ## Map Interface
 
 https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html
 
-map is a structure able to store key-value pairs\
+Map is a structure able to store key-value pairs
 - value is any object your application needs to handle
 - key is something that can represent this object
 - relationship between a key and its bound value follows these two simple rules
@@ -69,6 +72,34 @@ The Map interface has many implementations.
 2. LinkedHashMap https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashMap.html
 3. IdentityHashMap https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/IdentityHashMap.html
 
+Choose depending upon specific needs
+- HashMap: An object that maps keys to values, cannot contain duplicate keys, permits null values and the null key
+- LinkedHashMap: basically a HashMap, while maintaining the insertion order
+- IdentityHashMap: It is not a general-purpose Map implementation. Very rarely used. Refer official docs.
+
+#### HashMap
+`HashMap()`
+  - Constructs an empty HashMap
+  - Default initial capacity (16) and the default load factor (0.75)
+- `HashMap(int initialCapacity)`
+  - Constructs an empty HashMap with the specified initial capacity
+  - Default load factor (0.75)
+`HashMap(initialCapacity: int,loadFactor: float)`
+  - Constructs an empty HashMap with the specified initial capacity and load factor
+`HashMap(m: Map<? extends K, ? extends V>)`
+  - Constructs a new HashMap with the same mappings as the specified Map
+
+#### LinkedHashMap
+`LinkedHashMap()`
+  - Constructs an empty insertion-ordered LinkedHashMap instance
+  - Default initial capacity (16) and load factor (0.75)
+- `LinkedHashMap(int initialCapacity)`
+- `LinkedHashMap(int initialCapacity, float loadFactor)`
+- `LinkedHashMap(initialCapacity: int, loadFactor: float, accessOrder: boolean)`
+  - Constructs an empty LinkedHashMap instance with the specified initial capacity, load factor and ordering mode
+`LinkedHashMap(m: Map<? extends K,? extends V>)`
+  - Constructs an insertion-ordered LinkedHashMap instance with the same mappings as the specified map
+
 ---
 
 ---
@@ -103,7 +134,7 @@ The SortedMap interface has 1 implementation.
 
 https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/NavigableMap.html
 
-### SortedMap operations
+### NavigableMap operations
 It adds new operations -
 
 Accessing to Specific Keys or Entries
@@ -137,3 +168,16 @@ The NavigableMap interface has 1 implementation.
 
 1. TreeMap https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/TreeMap.html
   - The TreeMap class is a red-black tree, a well-known data structure.
+
+Choose depending upon specific needs
+- TreeSet: set of keys with a collection of values, keys sorted by their natural order or by an order specified by a Comparator
+
+#### TreeMap
+`TreeMap()`
+  - Constructs a new, empty tree map, using the natural ordering of its keys
+`TreeMap(m: Map<? extends K,? extends V>)`
+  - Constructs a new tree map containing the same mappings as the given map, ordered according to the natural ordering of its keys
+`TreeMap(c: Comparator<? super K>)`
+  - Constructs a new, empty tree map, ordered according to the given comparator
+- `TreeMap(SortedMap<K,? extends V> m)`
+  - Constructs a new tree map containing the same mappings and using the same ordering as the specified sorted map

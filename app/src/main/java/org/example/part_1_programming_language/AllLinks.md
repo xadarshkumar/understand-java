@@ -25,12 +25,24 @@ fundamental to the design of the Java programming language.
 - StringBuffer
 - StringBuilder
 - CharSequence
+- Iterable
+- Comparable
 
 ### java.util
 https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/package-summary.html
 
 contains the collections framework, some internationalization support classes, a service loader, properties, random number generation, string parsing and scanning classes, base64 encoding and decoding, a bit array, and several miscellaneous utility classes.
 - Arrays
+- Collection (Interface - Class)
+  - List - ArrayList, LinkedList
+  - Queue - ArrayDeque, LinkedList, PriorityQueue
+  - Deque - ArrayDeque, LinkedList
+  - Set, SortedSet, NavigableSet - HashSet, TreeSet
+  - Map, SortedMap, NavigableMap - HashMap, TreeMap
+- Collections
+- Iterator
+- ListIterator
+- Comparator
 
 #### java.util.concurrent
 https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/concurrent/package-summary.html

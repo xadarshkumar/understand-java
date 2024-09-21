@@ -1,7 +1,11 @@
-# misc_05_collections_framework
+# misc_03_collections_framework
+https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/doc-files/coll-index.html \
+https://docs.oracle.com/javase/tutorial/collections/index.html
+- architecture for representing and manipulating collections
+- Java provides data structures that can be used to organize and manipulate data efficiently.
 
 <!-- TOC -->
-* [misc_05_collections_framework](#misc_05_collections_framework)
+* [misc_03_collections_framework](#misc_03_collections_framework)
   * [Collection Interface](#collection-interface)
     * [Collection operations](#collection-operations)
   * [Collections Factory Methods](#collections-factory-methods)
@@ -14,8 +18,15 @@
 <!-- TOC -->
 
 ## Collection Interface
-
 https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html
+
+Collection interface contains the methods for manipulating the elements in a collection.
+
+The Collection interface define the common operations like 
+- for adding and removing elements
+- query operations
+- union, intersection, complement
+- ...
 
 ### Collection operations
 It models several operations on containers of elements.
@@ -25,10 +36,10 @@ It models several operations on containers of elements.
   - `contains()`
 - ask for the number of elements contained, or if this collection is empty
   - `size()`, `isEmpty()`
-- clear this content
-  - `clear()`
 - testing for the inclusion of a set in another set
   - `containsAll()`
+- clear this content
+  - `clear()`
 - union
   - `addAll()`
 - intersection
@@ -42,7 +53,7 @@ It models several operations on containers of elements.
 - you can create a stream on these elements, that can be parallel
   - `stream()`, `parallelStream()`
 - get the elements of a collection in an array
-  - `toArray()`
+  - `toArray()`, `toArray(T[])`
 
 The Collections Framework does not provide a direct implementation of the Collection interface.
 
@@ -55,7 +66,7 @@ The Collections Framework does not provide a direct implementation of the Collec
 - both the list and the set you get are immutable structures
 - none of them is ArrayList or HashSet
 - these structures do not accept null values
-- These of() methods are commonly referred to as convenience factory methods for collections
+- These `of()` methods are commonly referred to as convenience factory methods for collections
 
 ```
 List<String> stringList = List.of("one", "two", "three");

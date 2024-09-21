@@ -1,7 +1,7 @@
-# misc_03_charsequence_interface
+# misc_01_string
 
 <!-- TOC -->
-* [misc_03_charsequence_interface](#misc_03_charsequence_interface)
+* [misc_01_string](#misc_01_string)
   * [CharSequence Interface](#charsequence-interface)
     * [Methods](#methods)
 <!-- TOC -->

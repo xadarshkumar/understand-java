@@ -1,7 +1,7 @@
-# misc_04_array
+# misc_02_array
 
 <!-- TOC -->
-* [misc_04_array](#misc_04_array)
+* [misc_02_array](#misc_02_array)
   * [Array](#array)
     * [obtain array](#obtain-array)
     * [array length](#array-length)

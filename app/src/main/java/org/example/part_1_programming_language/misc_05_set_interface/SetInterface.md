@@ -1,15 +1,18 @@
-# misc_05_collections_framework
+# misc_05_set_interface
 
 <!-- TOC -->
-* [misc_05_collections_framework](#misc_05_collections_framework)
+* [misc_05_set_interface](#misc_05_set_interface)
   * [Set interface](#set-interface)
     * [Set implementation](#set-implementation)
+      * [HashSet](#hashset)
+      * [LinkedHashSet](#linkedhashset)
   * [SortedSet interface](#sortedset-interface)
     * [SortedSet operations](#sortedset-operations)
     * [SortedSet implementation](#sortedset-implementation)
   * [NavigableSet interface](#navigableset-interface)
     * [NavigableSet operations](#navigableset-operations)
     * [NavigableSet implementation](#navigableset-implementation)
+      * [TreeSet](#treeset)
 <!-- TOC -->
 
 ## Set interface
@@ -26,6 +29,35 @@ difference in behavior does not bring any new operations in the Set interface
 
 The Set interface has 1 implementation.
 1. HashSet https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashSet.html
+2. LinkedHashSet https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/LinkedHashSet.html
+
+Choose depending upon specific needs
+- HashSet: Store unique objects
+- LinkedHashSet: Store unique objects, while maintaining the insertion order
+
+#### HashSet
+- `HashSet()`
+  - Constructs a new, empty set
+  - Default initial capacity (16) and load factor (0.75)
+- `HashSet(initialCapacity: int)`
+  - Constructs a new, empty set with specified initial capacity
+  - Default load factor (0.75)
+- `HashSet(initialCapacity: int, loadFactor: float)`
+  - Constructs a new, empty set with specified initial capacity and load factor
+- `HashSet(c: Collection<? extends E>)`
+  - Constructs a new set containing the elements in the specified collection
+
+#### LinkedHashSet
+- `LinkedHashSet()`
+  - Constructs a new, empty linked hash set
+  - Default initial capacity (16) and load factor (0.75)
+- `LinkedHashSet(initialCapacity: int)`
+  - Constructs a new, empty linked hash set with the specified initial capacity
+  - Default load factor (0.75)
+- `LinkedHashSet(initialCapacity: int, loadFactor: float)`
+  - Constructs a new, empty linked hash set with the specified initial capacity and load factor
+- `LinkedHashSet(c: Collection<? extends E>)`
+  - Constructs a new linked hash set with the same elements as the specified collection.
 
 ---
 
@@ -82,3 +114,19 @@ It adds new operations -
 The SortedSet interface has 1 implementation.
 1. TreeSet https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/TreeSet.html
    - TreeSet class was retrofitted to implement NavigableSet.
+
+Choose depending upon specific needs
+- TreeSet: Store unique objects, elements sorted by their natural order or by an order specified by a Comparator
+
+#### TreeSet
+- `TreeSet()`
+  - Constructs a new, empty tree set
+  - Sorted by their natural order of its elements
+- `TreeSet(c: Collection<? extends E>)`
+  - Constructs a new tree set containing the elements in the specified collection
+  - Sorted by their natural order of its elements
+- `TreeSet(comparator: Comparator<? super E>)`
+  - Constructs a new, empty tree set
+  - Sorted according to the specified comparator
+- `TreeSet(s: SortedSet<E>)`
+  - Constructs a new tree set containing the same elements and using the same ordering as the specified sorted set

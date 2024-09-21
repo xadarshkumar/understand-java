@@ -1,7 +1,7 @@
-# misc_05_collections_framework
+# misc_06_queue_deque_interface
 
 <!-- TOC -->
-* [misc_05_collections_framework](#misc_05_collections_framework)
+* [misc_06_queue_deque_interface](#misc_06_queue_deque_interface)
   * [Queue interface, Deque interface](#queue-interface-deque-interface)
     * [Queue operations](#queue-operations)
     * [Deque operations](#deque-operations)

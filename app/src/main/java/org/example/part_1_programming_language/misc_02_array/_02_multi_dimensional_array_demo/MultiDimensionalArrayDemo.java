@@ -1,4 +1,4 @@
-package org.example.part_1_programming_language.misc_04_array;
+package org.example.part_1_programming_language.misc_02_array._02_multi_dimensional_array_demo;
 
 public class MultiDimensionalArrayDemo {
     public static void print(int[][] matrix) {
