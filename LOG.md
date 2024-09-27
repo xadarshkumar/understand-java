@@ -6,6 +6,45 @@
 
 ------------------------------------------------------
 
+#### Fri, 27 sep 2024: 0.5hrs ✅
+- part 3:
+  - hashtable
+    - code
+  - 
+------------------------------------------------------
+
+#### Thurs, 26 sep 2024: 1hrs 💡
+- part 3:
+  - hashtable
+    - describe everything in words
+  - heap
+    - describe everything in words 💡
+
+------------------------------------------------------
+
+#### Wed, 25 sep 2024: 1(test)+1(review)hrs ✅
+- written: Mercedes Benz R&D India round 1
+  - part 4: 2024_09_25
+------------------------------------------------------
+
+#### Tues, 24 sep 2024: 2(prepare)+1.5(interview)+2(review)hrs ✅
+- interview: Deloitte round 2
+  - part 4: 2024_09_24
+
+------------------------------------------------------
+
+#### Mon, 23 sep 2024: 2.5hrs ✅
+- part 1:
+  - ch 30 stream API
+    - simple stream
+    - reduction
+    - parallel stream
+    - mapping
+    - collecting
+    - iterator
+    - spliterator
+
+------------------------------------------------------
 #### Fri, 20 sep 2024: 3hrs ✅
 - part 1: refactor, read and understand, add notes, add demo examples
   - misc 1 string

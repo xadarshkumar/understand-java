@@ -1,0 +1,63 @@
+# _4_hashtable
+
+## Node
+- Attributes
+  - `String key`
+  - `int value`
+  - `Node next`
+
+## HashTable
+- Constructor
+  - empty
+    - dataMap: instantiate to Node of given size
+- Attributes
+  - `int size`
+  - `Node[] dataMap`
+- Methods
+  - `void printTable`
+    - for loop: iterate to the length of dataMap
+      - store the current value in temp variable
+      - while loop: iterate till temp empty
+        - sout(key + ": " + value)
+        - temp = temp.next
+  - `int hash(String key)`
+    - initialise hash to zero
+    - convert String key to char[] keyChars
+    - for loop: iterate keyChars, with ascii key (not chars){read the value as int}
+      - calculate hash
+        - it can be any method
+        - e.g - (hash + ascii * 23) % length of data map
+    - return hash
+  - `void set(String key, int value)`
+    - create a node
+    - calculate hash(key), save it as index
+    - if/else: obtained index of dataMap is empty?
+      - yes:
+        - insert node there
+      - no: 
+        - store the current value in temp variable
+        - while loop: iterate till its next is null **KIM**
+          - temp = temp.next
+        - temp.next points to newNode 
+  - `get(String key)`
+    - calculate hash(key), save it as index
+    - store the dataMap index value in temp variable
+    - flag variable
+    - while loop: iterate till empty
+      - if/else: check temp key value equals to key or not
+        - yes:
+          - sout(key,value)
+          - set flag
+          - break loop
+        - no:
+          - don't do anything
+      - temp = temp.next
+    - if/else: check if flag is set or not
+  - `getAllKeys`
+    - initialise a new ArrayList to store keys
+    - for loop: iterate to the length of dataMap
+      - store the current value in temp variable
+      - while loop: iterate till temp empty
+        - ArrayList.add(key)
+        - temp = temp.next
+    - print ArrayList

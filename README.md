@@ -66,7 +66,7 @@ https://www.accessengineeringlibrary.com/content/book/9781260463415
 | **27**  | Using AWT Controls, Layout Managers, and Menus                                                                                          |         |           |         |
 | **28**  | Images                                                                                                                                  |         |           |         |
 | **29**  | The Concurrency Utilities                                                                                                               |         |  &check;  |         |
-| **30**  | The Stream API                                                                                                                          |         |  &check;  |         |
+| **30**  | [The Stream API](app/src/main/java/org/example/part_1_programming_language/ch_30_the_stream_API/StreamAPI.md)                           |         |           | &check; |
 | **31**  | Regular Expressions and Other Packages                                                                                                  |         |           |         |
 | **32**  | Introducing Swing                                                                                                                       |         |           |         |
 | **33**  | Exploring Swing                                                                                                                         |         |           |         |
