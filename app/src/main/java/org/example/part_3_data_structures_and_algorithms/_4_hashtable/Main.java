@@ -1,4 +1,4 @@
-package org.example.part_3_algorithms._4_hashtable;
+package org.example.part_3_data_structures_and_algorithms._4_hashtable;
 
 public class Main {
     public static void main(String[] args) {

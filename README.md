@@ -5,10 +5,11 @@
     * [documentations](#documentations)
     * [basic practice problems](#basic-practice-problems)
     * [textbook - Java, The Complete reference 12Ed - Herbert Schildt](#textbook---java-the-complete-reference-12ed---herbert-schildt)
-  * [part_2_data_structures](#part_2_data_structures)
+  * [part_2_programming_language_kotlin](#part_2_programming_language_kotlin)
+  * [part_3_data_structures_and_algorithms](#part_3_data_structures_and_algorithms)
     * [resources](#resources)
-  * [part_3_algorithms](#part_3_algorithms)
   * [part_4_practice](#part_4_practice)
+  * [Part_5_spring_boot](#part_5_spring_boot)
 <!-- TOC -->
 
 ## part_1_programming_language
@@ -74,10 +75,16 @@ https://www.accessengineeringlibrary.com/content/book/9781260463415
 | **35**  | Java Beans                                                                                                                              |         |           |         |
 | **36**  | Introducing Servlets                                                                                                                    |         |           |         |
 
-## part_2_data_structures
+## part_2_programming_language_kotlin
+
+## part_3_data_structures_and_algorithms
+- [hashtable](app/src/main/java/org/example/part_3_data_structures_and_algorithms/_4_hashtable/HashTable.md)
+- [heap](app/src/main/java/org/example/part_3_data_structures_and_algorithms/_7_heap/Heap.md)
+
 ### resources
 - https://www.udemy.com/course/data-structures-and-algorithms-java/
 
-## part_3_algorithms
-
 ## part_4_practice
+
+## Part_5_spring_boot
+- [Part_1_Java_Techie - Spring Boot Interview Mastery](app/src/main/java/org/example/part_5_spring_boot/Part_1_Java_Techie.md)
