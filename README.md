@@ -88,3 +88,8 @@ https://www.accessengineeringlibrary.com/content/book/9781260463415
 
 ## Part_5_spring_boot
 - [Part_1_Java_Techie - Spring Boot Interview Mastery](app/src/main/java/org/example/part_5_spring_boot/Part_1_Java_Techie.md)
+- [Part_2_Java_Techie - Spring Boot Interview Mastery](app/src/main/java/org/example/part_5_spring_boot/Part_2_Java_Techie.md)
+- [Part_3_Java_Techie - Spring Boot Interview Mastery](app/src/main/java/org/example/part_5_spring_boot/Part_3_Java_Techie.md)
+- [Part_4_Java_Techie - Spring Boot Interview Mastery](app/src/main/java/org/example/part_5_spring_boot/Part_4_Java_Techie.md)
+- [Part_5_Java_Techie - Spring Boot Interview Mastery](app/src/main/java/org/example/part_5_spring_boot/Part_5_Java_Techie.md)
+- [Part_6_Java_Techie - Spring Boot Interview Mastery](app/src/main/java/org/example/part_5_spring_boot/Part_6_Java_Techie.md)
