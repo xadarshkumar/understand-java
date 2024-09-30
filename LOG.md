@@ -6,11 +6,17 @@
 
 ------------------------------------------------------
 
+#### Sun, 29 sep 2024: 1hrs 💡
+- part 5:
+  - part 4 java techie
+  - part 5 java techie 💡
+------------------------------------------------------
+
 #### Sun, 29 sep 2024: 3hrs 💡
 - part 5:
   - part 2 java techie
   - part 3 java techie
-  - part 4 java techie 💡
+  - part 4 java techie
   - part 5 java techie 💡
   - part 6 java techie 💡
 
