@@ -76,6 +76,12 @@ https://www.accessengineeringlibrary.com/content/book/9781260463415
 | **36**  | Introducing Servlets                                                                                                                    |         |           |         |
 
 ## part_2_programming_language_kotlin
+- Coursera: Kotlin for Java Developers - https://www.coursera.org/learn/kotlin-for-java-developers
+  - [Module 1: Introduction](app/src/main/java/org/example/part_2_programming_language_kotlin/coursera/Module_1.md)
+  - [Module 2: Starting up with Kotlin](app/src/main/java/org/example/part_2_programming_language_kotlin/coursera/Module_2.md)
+  - [Module 3: Nullability, Functional Programming](app/src/main/java/org/example/part_2_programming_language_kotlin/coursera/Module_3.md)
+  - [Module 4: OOP, Conventions](app/src/main/java/org/example/part_2_programming_language_kotlin/coursera/Module_4.md)
+  - [Module 5](app/src/main/java/org/example/part_2_programming_language_kotlin/coursera/Module_5.md)
 
 ## part_3_data_structures_and_algorithms
 - [hashtable](app/src/main/java/org/example/part_3_data_structures_and_algorithms/_4_hashtable/HashTable.md)
